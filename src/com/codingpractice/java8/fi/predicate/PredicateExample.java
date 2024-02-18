@@ -11,9 +11,6 @@ public class PredicateExample {
 	static Predicate<Integer> predicateDivBy7 = (i) -> i%7==0;
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-		
 		
 		// Define the implementation of test(Tt) method of the Predicate Interface using lambda
 		Predicate<Integer> predicate1 = (i) -> {return i%2==0;};
