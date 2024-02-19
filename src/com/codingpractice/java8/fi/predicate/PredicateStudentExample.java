@@ -10,8 +10,8 @@ public class PredicateStudentExample {
 
 	static List<Student> studentList = StudentDB.getAllStudents();
 	
-	static Predicate<Student> predicateGrade = (student) -> student.getGradeLevel()>=2;
-	static Predicate<Student> predicateGpa = (student) -> student.getGpa()>8;
+	public static Predicate<Student> predicateGrade = (student) -> student.getGradeLevel()>=2;
+	public static Predicate<Student> predicateGpa = (student) -> student.getGpa()>8;
 	
 	public static void main(String[] args) {
 		

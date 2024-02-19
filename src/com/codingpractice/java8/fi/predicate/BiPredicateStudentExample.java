@@ -10,7 +10,7 @@ public class BiPredicateStudentExample {
 
 	static List<Student> studentList = StudentDB.getAllStudents();
 	
-	static BiPredicate<Integer, Double> biPredicateGradeGpa = (gradeLevel, gpa) -> gradeLevel>=2 && gpa>8;
+	public static BiPredicate<Integer, Double> biPredicateGradeGpa = (gradeLevel, gpa) -> gradeLevel>=2 && gpa>8;
 //	static BiPredicate<Integer, Double> predicateGpa = (student) -> student.getGpa()>8;	
 	
 	public static void main(String[] args) {
